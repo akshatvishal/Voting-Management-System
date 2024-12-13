@@ -15,7 +15,7 @@ const Navigate = useNavigate()
       <div onClick={()=>{Navigate("./")}}>
         <h2>Home</h2>
       </div>
-      <div>
+      <div onClick={()=>{Navigate("./Parties")}}>
         <h2>Parties</h2>
       </div>
       <div>

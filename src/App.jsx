@@ -1,3 +1,4 @@
+import Parties from './components/Parties/Parties'
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sidebar from './Components/Sidebar/Sidebar';
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<h1>Welcome to Home Page</h1>} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/Parties" element={<Parties />} />
           </Routes>
         </div>
       </div>
